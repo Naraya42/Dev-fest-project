@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Extras</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<style>
+			.body{
+				margin:0;
+  				background-repeat: no-repeat;
+ 				background-attachment: fixed;
+				background-size: cover;
+			}
+			.photo{
+  			object-fit: cover;
+ 			width: 100%;
+ 			height: 100%;
+			}
+			.container{
+				width:100vw;
+				height:100vh;
+				display: grid;
+				grid-template-columns: 70px 1fr 1fr 1.5fr;
+				grid-template-rows: 50px 40px 1fr 1fr 40px;
+				gap:10px;
+				padding:10px;
+				box-sizing: border-box;
+			}
+			.container div {
+				padding:10px;
+				border:1px solid black;
+			}
+			.header{
+				grid-column-start:1;
+				grid-column-end:5;
+				background: rgba(255, 0,0, 0.2);
+				color: #000000;
+			}
+			.content-large{
+				grid-column-start:1;
+				grid-column-end:4;
+				grid-row-start:3;
+				grid-row-end:5;
+				background: rgba(255,0,0,0.2);
+				color: #000000;
+			}
+			.content-small{
+				grid-column-start:4;
+				grid-column-end:5;
+				background: rgba(255,165,0,0.2);
+				color: #000000;
+			}
+			.footer{
+				grid-column-start:1;
+				grid-column-end:5;
+				background: rgba(0, 0, 0, 0.2);
+				color: #FFFFFF;
+			}
+			.home{
+				background: rgba(255,165,0, 0.2);
+				color: #000000;
+			}
+			.work_life{
+				background: rgba(255,165,0, 0.2);
+				color: #000000;
+			}
+			.Friends_and_Family{
+				background: rgba(255,165,0, 0.2);
+				color: #000000;
+			}
+			.Extras{
+				background: rgba(14,136,1, 0.2);
+				color: #000000;
+			}
+		</style>
+	</head>
+	<body class="body">
+<!-- directory starts here -->
+		<div class="container">
+			<div class="header">
+				<font size="5">A few Extra's and Few other things</font>
+			</div>
+			<div class="home">
+    				<a href="index.html">Home</a>
+			</div>
+
+			<div class="Friends_and_Family">
+				<a href="Friends_and_Family.html">Friends_and_Family</a>
+			</div>
+
+			<div class="Work_life">
+				<a href="Work_Life.html">Work Life</a>
+			</div>
+
+			<div class="Extras">
+				<a href="Extras.html">Extras</a>
+			</div>
+<!-- directory Ends here -->
+			<div class="content-large">
+				Content#1
+			</div>
+
+			<div class="content-small">
+				Content small 1
+			</div>
+
+			<div class="content-small">
+				<h3>Contact Info</h3>
+				<a href="mailto:techguy202021@gmail.com">techguy202021@gmail.com</a><br>
+				<a href="egg.8bit.ca">egg.8bit.ca</a>
+				(this website)
+				<p>For any other information please contact the email provided</p>
+			</div>
+
+			<div class="footer">
+				<font color="dark Orange">This website was designed and built by Riley</font> <a href="Extras.html"><font color="dark Orange">contact me</font></a>
+			</div>
+		</div>
+    </body>
+</html>
